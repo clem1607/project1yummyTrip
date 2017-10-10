@@ -1,0 +1,238 @@
+/*HEADER AND FOOTER STYLE*/
+@font-face {
+    font-family: 'Oswald Stencil';
+    src: url(fonts/Oswald-Stencil.ttf);
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+
+body{
+    background-color: #fef2e4;
+
+    
+    
+}
+
+header{
+    width: 100%;
+    background-color: #7f152e;
+    height:160px; 
+}
+
+header>nav{
+    width:99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-family: 'Oswald Regular';
+}
+
+
+
+nav>ul>li>a{
+    text-decoration: none;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    color: white;
+/*    border:  1px solid black;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:80px;
+    
+}
+
+nav>ul>li{ 
+    height: 160px;
+}
+
+#monde{
+    width:40px;
+    height:40px;
+    align-self: center;
+   
+
+}
+
+#destinations{
+    width:70px;
+    height:70px;
+    align-self: center;  
+}
+
+#trips{
+    width:40px;
+    height:40px;
+    align-self: center;   
+}
+
+#contact{
+    width:70px;
+    height:70px;
+    align-self: center;   
+}
+
+#logo{
+    width:200px;
+/*    border: 1px solid white;*/
+}
+
+
+
+/*MAIN STYLE*/
+
+main{
+    width: 100%;
+}
+
+main>div{
+    width:99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main>div>div{
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*    border:1px solid red;*/
+    
+}
+
+
+h1,h2{
+    text-align: center;
+    color: #7f152e;
+    font-family: 'Oswald Stencil';
+    
+}
+
+h1{
+    padding: 10px;
+    height:120px;
+    width:400px;
+/*    border: 1px solid green;*/
+    align-self: center;
+    font-size: 300%;
+    background-image: url(../images/brush5.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom;
+/*    border:1px solid black;*/
+} 
+
+h2{ 
+    color: #7f152e;   
+}
+
+section{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    color: #7f152e;
+/*
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px rgba(50, 50, 50, 0.75);
+*/
+/*    border: 1px solid black;*/
+}
+
+article{
+    padding: 40px;
+    font-family: 'Oswald Regular';
+       
+}
+
+article>a{
+    background-color: darkorange;
+    height: 60px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Oswald Regular';
+}
+
+p{
+    background-image: url(../images/brush3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*FOOTER STYLE*/
+
+footer{
+    width:100%;
+    background-color: #fd974f;
+   
+}
+
+footer>div{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>div>div>ul{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+/*    border: 1px solid black;*/
+    margin: 10px;
+    width: 500px;
+}
+
+footer>div>div>ul>li>a{
+    text-decoration: none;
+}
+
+footer>div>div>ul>li{
+    padding: 5px;
+}
+
+#icons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    width: 500px;
+/*    border: 1px solid black;*/
+
+}
+
+#icons>i{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

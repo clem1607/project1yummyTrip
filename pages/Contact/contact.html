@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/testimonials.css">
+    <script src="../../js/jquery-3.2.1.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Notre monde<img src="../../images/monde.svg" alt="monde" id="monde"></a>
+                </li>
+                <li>
+                    <a href="#">Nos destinations<img src="../../images/destinations.svg" alt="destinations" id="destinations"></a>
+                </li>
+
+                <img src="../../images/logo.svg" alt="logo" id="logo">
+
+                <li>
+                    <a href="#">Nos Yummy trips<img src="../../images/trips.svg" alt="trips" id="trips"></a>
+                </li>
+                <li>
+                    <a href="../Contact/contact.html">Contact<img src="images/contact.svg" alt="contact" id="contact"></a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+
+        <h1 class="mt1">Contactez nous</h1>
+
+        <h2 class="mb2">Complétez ce formulaire pour nous contacter</h2>
+
+        <div class="row mb3">
+            <form method="post" action="http://www.capmystere.com/services/contactez-nous.html" id="form-contact">
+                <div class="col-sm-6">
+                    <!-- Text input-->
+                    <div class="form-group required-control">
+                        <label for="prenomnom">Prénom</label>
+                        <input id="prenom1" name="prenomnom" type="text" placeholder="Votre Prénom" class="form-control" required>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group required-control">
+                        <label for="nom">Nom</label>
+                        <input id="nom1" name="nom" type="text" placeholder="Votre Nom" class="form-control" required>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label for="societe">Société</label>
+                        <input id="societe" name="societe" type="text" placeholder="facultatif" class="form-control">
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group required-control">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" placeholder=" exemple : marc.dupont@gmail.com" class="form-control" required>
+                    </div>
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label for="adresse">Adresse</label>
+                        <textarea id="adresse" name="adresse" class="form-control" required></textarea>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label for="codepostal">Code postal / Ville</label>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4">
+                                <input id="codepostal" name="codepostal" type="text" placeholder="CP" class="form-control" required>
+                            </div>
+                            <div class="col-md-9 col-sm-8" id="div-ville">
+                                <input id="ville" name="ville" type="text" placeholder="Ville" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label for="telephone">Numéro de contact</label>
+                        <input id="telephone" name="telephone" type="tel" placeholder="Mobile ou fixe" class="form-control" required>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label for="portable">Portable</label>
+                        <input id="portable" name="portable" type="tel" placeholder="N° de gsm" class="form-control" required>
+                    </div>
+                    <!-- Textarea -->
+                    <div class="form-group_required-control">
+                        <label for="commentaire">Commentaire / demande</label>
+                        <textarea id="commentaire" name="commentaire" class="form-control" rows="9"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="newsletter"><input type="checkbox" name="newsletter" id="newsletter" value="newsletter"> Je souhaite recevoir votre newsletter</label>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 text-center">
+                    <button type="submit" id="envoyer" name="envoyer" class="btn btn-primary btn-lg"><i class="fa fa-paper-plane"></i>Envoyer mon formulaire</button>
+                </div>
+            </form>
+
+            <div class="section" id="section-tel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">Votre conseiller YummyTrip organise <br class="visible-xs-inline">votre voyage sur mesure au +322333333333 <small>du lundi au vendredi</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<footer>
+    <section>
+       
+        <div>
+            <div>
+                <ul>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">Notre Monde</a></li>
+                    <li><a href="">Nos destinations</a></li>
+                    <li><a href="">Nos Yummy trips</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div id="icons">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-square fa-2x " aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+         &copy; Copyright 2013 · by RHC.com 
+    </section>
+   </footer>
+
+    </body>
+
+</html>
